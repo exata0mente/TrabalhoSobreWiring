@@ -9,8 +9,11 @@ O Grupo
 =======
 
 Lucas Silva
+
 Renato Frutuoso
+
 Ricardo Bezerra
+
 Robson Araújo
 
 O Professor
@@ -21,7 +24,9 @@ Bruno Abrantes - 03299@unifieo.br
 Ferramentas
 =============
 Quadro no Trello[^1]
+
 Repositório no GitHub[^2]
+
 Ferramenta Git[^3]
 
 

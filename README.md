@@ -33,12 +33,12 @@ Ferramenta Git[^3]
 Tópicos a serem pesquisados
 ==========================
 
-[x] Breve história - Ricardo
-[x] Wiring e o Arduino - Ricardo
-[ ] Hardware Wiring - Renado
-[ ] Software Wiring - Ricardo
-[ ] Principais funções do Wiring (na perspectiva do Arduíno) - Ricardo
-[ ] Wiring e o ARM - Lucas
+- [x] Breve história - Ricardo
+- [x] Wiring e o Arduino - Ricardo
+- [ ] Hardware Wiring - Renado
+- [ ] Software Wiring - Ricardo
+- [ ] Principais funções do Wiring (na perspectiva do Arduíno) - Ricardo
+- [ ] Wiring e o ARM - Lucas
 
 Como utilizar o Git?
 =====================

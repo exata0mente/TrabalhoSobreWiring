@@ -1,2 +1,17 @@
-\section{Wiring e o Arm}
-% Será interessante a participação do Lucas, que tem mais familiaridade com Circuitos
+\section{Wiring e o AVR}
+
+\subsection{Atmel AVR}
+
+O AVR é um microcontrolador RISC desenvolvido pela Atmel e posteriormente comprado pela Microchip Tecnology. Possui uma pequena memória flash para armazenamento do programas e 32 registradores internos. Este tipo de chip é muito utilizado em hardwares de prototipagem, como o Arduíno.
+
+Conforme \citeonline{borges2006desenvolvimento} "Com o objetivo de maximizar o desempenho e o paralelismo, o AVR segue arquitetura Harvard, em que os barramentos associados às memórias de dados e do programa são distintos. Além disso, utiliza-se a técnica do \emph{pipeline}, em que, enquanto uma instrução começa a ser executada, uma outra já é buscada na memória de programa para que a mesma possa ser executada no próximo ciclo de relógio"
+
+Um microcontrolador possui internamente todas as caracteristicas de um computador possuindo processador, memória e periféricos de entrada e saída. Este tipo de circuito é conhecido como \emph{System-on-chip}. Esta característica o faz ser amplamente utilizado em hardwares de prototipagem pois possui características suficientes para a execução de programas e acionamento de pinos, por exemplo.
+
+A versão mais popular do Arduíno, Arduíno Uno, possui um microcontrolador ATmega328
+
+\subsection{Programando para AVR}
+
+No diretório de instalação do Arduíno há uma biblioteca denominada avr/io.h, esta biblioteca possui todas as diretivas para outras bibliotecas com base no microcontrolador utilizado. Nestas bibliotecas há definições de registradores de entrada e saída, pinos, constantes e diversos outros componentes, conforme trecho abaixo.
+
+%INSERIR IMAGEM DO ATMEGA328, INSERIR TAMBÉM UM TRECHO OU OUTRO E FINALIZAR

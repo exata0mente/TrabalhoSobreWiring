@@ -1,8 +1,8 @@
-\section{A linguagem do Wiring}[A linguagem do Wiring]
+\chapter{A linguagem do Wiring}[A linguagem do Wiring]
 
 O Wiring é uma API (Application Programming Interface) (\autoref{wiringS}) da linguagem Processing, portando as funcionalidades de interface da linguagem, fazendo com que a programação do projeto seja independente da linguagem que o hardware entende, além também de ter todo o suporte gráfico que seu desenvolvimento (Processing) em Java o proporciona. 
 
-\subsection{IDE}
+\section{IDE}
 
 O ambiente do Wiring (Integrated Development Environment ou IDE) possui um editor de texto e um compilador para escrever programas para o seu hardware. 
 
@@ -16,7 +16,7 @@ O ambiente do Wiring (Integrated Development Environment ou IDE) possui um edito
 
 Nos próximos tópicos falaremos um pouco sobre os cabeçalhos e as principais funções que o Wiring nos proporcionou. Como este trabalho aborda o Wiring em relação ao Arduíno, iremos usar os cabeçalhos presentes no diretório de instalação do Arduíno.
 
-\subsection{A biblioteca Wiring no Arduíno}
+\section{A biblioteca Wiring no Arduíno}
 
 No diretório de instalação do Arduíno temos arquivos como wiring\_analog.c, wiring.c, wiring\_digital.c, wiring\_private.h  wiring\_pulse.c, wiring\_pulse.S, wiring\_shift.c e Arduino.h. Abaixo uma breve descrição de cada arquio
 
@@ -32,7 +32,7 @@ No diretório de instalação do Arduíno temos arquivos como wiring\_analog.c, 
     Abaixo um organograma com as dependências dos arquivos
     
     \begin{figure}[htb]
-    	\caption{\label{wiringIDE}Organograma das funções citadas}
+    	\caption{\label{Organograma}Organograma das funções citadas}
     	\begin{center}
     	    \includegraphics[scale=0.5]{artigo/refs/org_head_arduino}
     	\end{center}
@@ -41,13 +41,13 @@ No diretório de instalação do Arduíno temos arquivos como wiring\_analog.c, 
     
 \end{alineas}
 
-\subsection{Principais Funções}
+\section{Funções básicas}
 
 Quando iniciamos a aprendizagem do Arduino (ou outro hardware de prototipação) o \emph{Hello World}\footnote{Expressão utilizada quando escrevemos o primeiro programa em uma linguagem de programação} é fazer o led interno da placa piscar (\emph{blinking Led}). Este código inclusive, é o primeiro exemplo utilizado na tese de Barragán \cite[p.~39]{Barragan2004}. 
 
 Com a instalação da IDE do Arduíno este código já vem pronto. As funções utilizadas no exemplo do Arduíno, além das principais setup() e loop(), são pinMode(), digitalWrite() e delay().\newline
 
-\subsubsection{pinMode}
+\subsection{pinMode}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -109,7 +109,7 @@ if (mode == INPUT) {
 }
 \end{lstlisting}
 
-\subsubsection{digitaWrite}
+\subsection{digitaWrite}
 
 \begin{lstlisting}
 void digitalWrite(uint8_t pin, uint8_t val)
@@ -140,7 +140,7 @@ void digitalWrite(uint8_t pin, uint8_t val)
 }
 \end{lstlisting}
 
-\subsubsection{delay}
+\subsection{delay}
 
 \begin{lstlisting}
 void delay(unsigned long ms)

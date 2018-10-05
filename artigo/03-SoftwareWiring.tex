@@ -21,11 +21,11 @@ Nos próximos tópicos falaremos um pouco sobre os cabeçalhos e as principais f
 No diretório de instalação do Arduíno temos arquivos como wiring\_analog.c, wiring.c, wiring\_digital.c, wiring\_private.h  wiring\_pulse.c, wiring\_pulse.S, wiring\_shift.c e Arduino.h. Abaixo uma breve descrição de cada arquio
 
 \begin{alineas}
-    \item \textbf{Arduino.h}: Este cabeçalho possui todas as definições de constantes mais utilizadas como, HIGH, LOW, PI, EULER, definições de macros como  min(a,b), abs(x), lowByte, bitSet, e também protótipo das funções básicas como pinMode, digitalWrite, digitalRead. Também há definição de estruturas de dados como uint8\_t e bool .
-    \item \textbf{wiring\_private.h}: Este cabeçalho possui mais definições de constantes e de macros muito utilizadas nas definições de função como cbi(sfr, bit) e sbi(sfr, bit). Aĺém disso há definições de constantes com base no microprocessador utilizado.
-    \item \textbf{wiring.c}: Interface com as definições de funções como millis() e delay(). 
+    \item \textbf{Arduino.h}: Este cabeçalho possui todas as definições de constantes mais utilizadas como, \textbf{HIGH}, \textbf{LOW}, \textbf{PI}, \textbf{EULER}, definições de macros como  \textbf{min(a,b)}, \textbf{abs(x)}, e também protótipo das funções básicas como \textbf{pinMode}, \textbf{digitalWrite}, \textbf{digitalRead}. Também há definição de estruturas de dados como \textbf{uint8\_t} e \textbf{bool} .
+    \item \textbf{wiring\_private.h}: Este cabeçalho possui mais definições de constantes e de macros muito utilizadas nas definições de função como \textbf{cbi(sfr, bit)} e \textbf{sbi(sfr, bit)}. Aĺém disso há definições de constantes com base no microprocessador utilizado.
+    \item \textbf{wiring.c}: Interface com as definições de funções como \textbf{millis()} e \textbf{delay()}. 
     \item \textbf{wiring\_analog.c} Interface com as definições de funções relacionadas aos pinos analógicos. Há funções como analogRead e analogWrite. 
-    \item \textbf{wiring\_digital.c} Interface com as definições de funções relacionadas aos pinos digitais. Há funções como pinMode, digitalWrite e digitalRead.
+    \item \textbf{wiring\_digital.c} Interface com as definições de funções relacionadas aos pinos digitais. Há funções como \textbf{pinMode}, \textbf{digitalWrite} e \textbf{digitalRead}.
     \item \textbf{wiring\_shift.c} Interface com as definições de funções relacionadas aos troca de determinado bit com base em um \emph{clock}. 
     \item \textbf{wiring\_pulse.c} Interface com as definições de funções relacionadas a pulsos com base em estado e tempo. 
     
@@ -43,7 +43,7 @@ No diretório de instalação do Arduíno temos arquivos como wiring\_analog.c, 
 
 \section{Funções básicas}
 
-Quando iniciamos a aprendizagem do Arduino (ou outro hardware de prototipação) o \emph{Hello World}\footnote{Expressão utilizada quando escrevemos o primeiro programa em uma linguagem de programação} é fazer o led interno da placa piscar (\emph{blinking Led}). Este código inclusive, é o primeiro exemplo utilizado na tese de Barragán \cite[p.~39]{Barragan2004}. 
+Quando iniciamos a aprendizagem do Arduino (ou outro hardware de prototipação) o \emph{Hello World}\footnote{Expressão utilizada quando escrevemos o primeiro programa em uma linguagem de programação} é fazer o LED interno da placa piscar (\emph{blinking Led}). Este código inclusive, é o primeiro exemplo utilizado na tese de Barragán \cite[p.~39]{Barragan2004}. 
 
 Com a instalação da IDE do Arduíno este código já vem pronto. As funções utilizadas no exemplo do Arduíno, além das principais setup() e loop(), são pinMode(), digitalWrite() e delay().\newline
 

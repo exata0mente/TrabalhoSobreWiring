@@ -6,7 +6,7 @@ O AVR é um microcontrolador RISC desenvolvido pela Atmel e posteriormente compr
 
 Conforme \citeonline{borges2006desenvolvimento} "Com o objetivo de maximizar o desempenho e o paralelismo, o AVR segue arquitetura Harvard, em que os barramentos associados às memórias de dados e do programa são distintos. Além disso, utiliza-se a técnica do \emph{pipeline}, em que, enquanto uma instrução começa a ser executada, uma outra já é buscada na memória de programa para que a mesma possa ser executada no próximo ciclo de relógio"
 
-Um microcontrolador possui internamente todas as caracteristicas de um computador possuindo processador, memória e periféricos de entrada e saída. Este tipo de circuito é conhecido como \emph{System-on-chip}. Esta característica o faz ser amplamente utilizado em hardwares de prototipagem pois possui características suficientes para a execução de programas e acionamento de pinos, por exemplo.
+Um microcontrolador possui internamente todas as características de um computador possuindo processador, memória e periféricos de entrada e saída. Este tipo de circuito é conhecido como \emph{System-on-chip}\footnote{\url{https://pt.wikipedia.org/wiki/System-on-a-chip}}. Esta característica o faz ser amplamente utilizado em hardwares de prototipagem pois possui características suficientes para a execução de programas e acionamento de pinos, por exemplo.
 
 A versão mais popular do Arduíno, o Arduíno Uno, possui um microcontrolador ATmega328 (\autoref{atmega})
 
@@ -26,9 +26,8 @@ No diretório de instalação do Arduíno há uma biblioteca denominada avr/io.h
 
 \subsection{Bibliotecas AVR}
 
-Aqui um pequno trecho da biblioteca io.h em que, de acordo com o chip AVR utilizado, uma nova biblioteca é incluída.
-\newline
-\newline
+Aqui um pequeno trecho da biblioteca io.h em que, de acordo com o chip AVR utilizado, uma nova biblioteca é incluída.
+
 \begin{lstlisting}
 //biblioteca io.h
 //(...)
